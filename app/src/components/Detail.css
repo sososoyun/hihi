@@ -1,0 +1,50 @@
+.detail-container {
+  padding: 20px;
+  font-family: 'Cafe24Meongi-W-v1.0', 'KyoboHandwriting2023wsa';
+  background-color: #ffffff;
+  color: #000000;
+}
+@font-face {
+  font-family: 'KyoboHandwriting2023wsa';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404-2@1.0/KyoboHandwriting2023wsa.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.post-content {
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-image {
+  width: 200px;
+  margin: 10px;
+}
+
+.back-button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px; 
+}
+
+.back-button:hover {
+  background-color: #333333;
+}
